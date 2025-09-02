@@ -1,0 +1,101 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #e0e0fa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 20px;
+  color:darkcyan;
+  text-decoration: underline;
+}
+
+/* Category selection layout */
+#category-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.category {
+  background:rgb(232, 244, 162);
+  padding: 20px;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.category:hover {
+  transform: scale(1.05);
+}
+
+.category h2 {
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* Quiz section */
+#home-page{
+    align-items: start;
+
+}
+#quiz-section {
+  margin-top: 30px;
+}
+
+.question {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 60%;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.question p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+/* Timer */
+#timer {
+  font-weight: bold;
+  color: #d9534f; /* red for urgency */
+}
+
+/* Result text */
+#result {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #333;
+}

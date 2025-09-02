@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Quiz</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Web Development Quiz</h1>
+
+  <!-- Category selection -->
+  <div id="category-container">
+    <div class="category">
+      <h2>HTML Quiz</h2>
+      <button onclick="startQuiz('html')">Start</button>
+    </div>
+    <div class="category">
+      <h2>CSS Quiz</h2>
+      <button onclick="startQuiz('css')">Start</button>
+    </div>
+    <div class="category">
+      <h2>JavaScript Quiz</h2>
+      <button onclick="startQuiz('js')">Start</button>
+    </div>
+  </div>
+
+  <!-- Timer + Quiz (hidden at first) -->
+   
+    <div id="home-page" style="display: none;">
+   <a href="index.html" class="home-link">
+    <i class="fa-solid fa-house-chimney"></i>
+   </a>
+  </div>
+   
+  <div id="quiz-section" style="display:none;">
+    <h3>Time left: <span id="timer">30</span> seconds</h3>
+    <div id="quiz-container"></div>
+    <button id="nextBtn">Next</button>
+    <p id="result">
+    </p>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
