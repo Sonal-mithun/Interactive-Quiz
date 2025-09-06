@@ -16,4 +16,4 @@ Users can attempt multiple-choice questions with a timer for each question.
 - JavaScript
 
 ## Live Link
-[View Quiz Website](https://yourusername.github.io/Interactive-Quiz/)
+[View Quiz Website](https://Sonal-mithun.github.io/Interactive-Quiz/)
